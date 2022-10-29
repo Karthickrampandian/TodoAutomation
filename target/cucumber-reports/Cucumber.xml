@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="231.892">
+    <testcase classname="Login to HRM Application" name="Test Scenarios across browsers" time="4.37">
+        <system-out><![CDATA[Given User navigates to TODO Homepage "QAURL" using "Chrome" and verify title.passed
+When User enters todo "Chrome"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Test Scenarios across browsers 2" time="5.262">
+        <system-out><![CDATA[Given User navigates to TODO Homepage "QAURL" using "FireFox" and verify title.passed
+When User enters todo "FireFox".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="End to End testing" time="11.134">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User adds multiple todo items in same session..........................passed
+Then mark random Todo as completed..........................................passed
+Then edit a random Todo and mark it as completed............................passed
+And User adds multiple todo items in same session...........................passed
+And Show Completed Todo's...................................................passed
+And Show Active Todo's......................................................passed
+And Show All Todo's.........................................................passed
+But Delete a random Todo....................................................passed
+Then Mark all Todo as completed and verify items count......................passed
+And Clear all completed Todo's..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Add a Todo" time="16.529">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User enters todo "Automation Testing"..................................passed
+And Verify count............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Add a Todo and delete it" time="33.944">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User enters todo "Automation Testing"..................................passed
+Then Delete it..............................................................passed
+And Verify count............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Add a Todo and Edit it" time="16.876">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User enters todo "Automation Testing"..................................passed
+Then Edit First Todo with random Text.......................................passed
+And Verify count............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Add multiple Todos" time="16.717">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User adds multiple todo items in same session..........................passed
+And Verify count............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Add multiple Todos and Complete &amp; Clear all Todo" time="38.044">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User adds multiple todo items in same session..........................passed
+Then Mark all Todo as completed and verify items count......................passed
+And Clear all completed Todo's..............................................passed
+And Verify count............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Add Todos and Complete added Todo's and Add again" time="9.901">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User adds multiple todo items in same session..........................passed
+Then Mark all Todo as completed and verify items count......................passed
+And User adds multiple todo items in same session...........................passed
+And Verify count............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Show active Todo's from the list" time="23.809">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User adds multiple todo items in same session..........................passed
+Then Mark all Todo as completed and verify items count......................passed
+And User adds multiple todo items in same session...........................passed
+Then Show Active Todo's.....................................................passed
+And Verify count............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Show Completed Todo's from the list" time="38.136">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User adds multiple todo items in same session..........................passed
+Then Mark all Todo as completed and verify items count......................passed
+And User adds multiple todo items in same session...........................passed
+Then Show Completed Todo's..................................................passed
+And Verify count............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Show All Todo's from the list" time="9.94">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User adds multiple todo items in same session..........................passed
+Then Mark all Todo as completed and verify items count......................passed
+And User adds multiple todo items in same session...........................passed
+Then Show Completed Todo's..................................................passed
+And Show All Todo's.........................................................passed
+And Verify count............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Add multiple Todo's and Mark random Todo as completed" time="3.554">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User adds multiple todo items in same session..........................passed
+Then mark random Todo as completed..........................................passed
+And Verify count............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to HRM Application" name="Add multiple Todo's, Edit a random Todo and mark it as completed" time="3.557">
+        <system-out><![CDATA[Given User is on TODO Homepage "QAURL" and verify title.....................passed
+When User adds multiple todo items in same session..........................passed
+Then edit a random Todo and mark it as completed............................passed
+And Verify count............................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
